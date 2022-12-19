@@ -18,14 +18,10 @@ Here is an example of how to use the toggle button in a webpage:
 ```
 <!-- Include the JavaScript code -->
 <script src="/path/to/night-mode.js"></script>
-```
 
-```
 <!-- Link to the CSS file for the "night mode" styles -->
 <link rel="stylesheet" type="text/css" href="/path/to/night-mode.css">
-```
 
-```
 <!-- Add the toggle button to the toolbar -->
 <button id="zotero-night-mode-button">Activer le mode nuit</button>
 ```
