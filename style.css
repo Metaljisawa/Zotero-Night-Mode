@@ -1,22 +1,33 @@
-/* The body element is the root element of the page, so we can use it to apply styles to the entire page */
+/* Default styles for the webpage */
 body {
-  /* Set the background color to black */
-  background-color: black;
-
-  /* Set the text color to white */
-  color: white;
+  background-color: #fff;
+  color: #000;
 }
 
-/* The .night-mode class can be used to apply styles specifically for the night mode */
-.night-mode {
-  /* Set the background color to dark gray */
+/* Styles for the "night mode" */
+body.night-mode {
+  background-color: #000;
+  color: #fff;
+}
+/* Default styles for links */
+a {
+  color: #00f;
+}
+
+/* Default styles for buttons */
+button {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* Styles for links in the "night mode" */
+body.night-mode a {
+  color: #fff;
+}
+
+/* Styles for buttons in the "night mode" */
+body.night-mode button {
   background-color: #333;
+  color: #fff;
 }
 
-/* This CSS file defines two sets of styles: one for the body element, which applies to the entire page, and one for elements with the night-mode class, which can be applied to specific elements to give them a different appearance in night mode.
-
-In the body styles, the background-color is set to black and the color is set to white, which will make the background of the page black and the text white.
-
-In the .night-mode styles, the background-color is set to a dark gray color, which could be used for elements that need a different background color in night mode.
-
-Of course, this is just one possible approach to creating a night mode for a Zotero extension. You may want to adjust these styles or add additional styles to suit your specific needs.*/
