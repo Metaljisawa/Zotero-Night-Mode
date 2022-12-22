@@ -3,7 +3,8 @@
 
 // Créer un bouton pour activer/désactiver le mode nuit
 var nightModeButton = {
-
+  id: 'zotero-night-mode-button',
+  label: 'Activer le mode nuit',
   icon: 'icon-moon', // icône pour le mode nuit désactivé
   action: toggleNightMode
 };
